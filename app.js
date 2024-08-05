@@ -9,8 +9,8 @@ const server = http.createServer((req, res) => {
   // Set the response HTTP header with HTTP status and Content type
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  // Send the response body "Hello abc"
-  res.end('Hello, Gagan\n');
+  // Send the response body "Hello, World!"
+  res.end('Hello, World!\n');
 });
 
 // Listen on the specified port and hostname
