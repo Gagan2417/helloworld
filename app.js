@@ -9,11 +9,11 @@ const server = http.createServer((req, res) => {
   // Set the response HTTP header with HTTP status and Content type
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  // Send the response body "Hello, World!"
-  res.end('Hello, World!\n');
+  // Send the response body "Hello abc"
+  res.end('Hello, Gagan\n');
 });
 
 // Listen on the specified port and hostname
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${3000}/`);
+  console.log(`Server running at http://${hostname}:${port}/`);
 });
